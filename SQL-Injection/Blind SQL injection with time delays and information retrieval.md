@@ -26,3 +26,5 @@
 - Re-run the attack for each of the other character positions in the password, to determine their value.
 - Continue this process testing offset 2, 3, and so on, until you have the whole password.
 - Log in as the administrator user.
+
+Note : While brute-forcing the password, you can use Cluster bomb attack as well, but it will take more time.
