@@ -1,6 +1,6 @@
 # Path Traversal – PortSwigger Labs
 
-This folder contains my solutions and learning notes for **Path Traversal labs** on the [PortSwigger Web Security Academy]([(https://portswigger.net/web-security/all-labs#path-traversal)]).
+This folder contains my solutions and learning notes for **Path Traversal labs** on the [PortSwigger Web Security Academy](https://portswigger.net/web-security/all-labs#path-traversal).
 
 ## ✅ Labs Completed
 
