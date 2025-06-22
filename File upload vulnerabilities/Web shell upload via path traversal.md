@@ -4,7 +4,7 @@
 - Log in to your account using the given credentials and notice the option for uploading an avatar image.
 - Upload an arbitrary image, then return to your account page. Notice that a preview of your avatar is now displayed on the page.
 - In the proxy history, notice that your image was fetched using a GET request to /files/avatars/. Send this request to Burp Repeater.
-- On your system, create a file called exploit.php, containing a script for fetching the contents of Carlos's secret. For example: <?php echo file_get_contents('/home/carlos/secret'); ?>
+- On your system, create a file called exploit.php, containing a script for fetching the contents of Carlos's secret. For example: `<?php echo file_get_contents('/home/carlos/secret'); ?>`
 - Upload this script as your avatar. It uploaded successfully.
 - In Burp Repeater, go to the tab containing the GET /files/avatars/<YOUR-IMAGE> request. In the path, replace the name of your image file with exploit.php and send the request.
 - Observe that instead of executing the script and returning the output, the server has just returned the contents of the PHP file as plain text.
