@@ -10,6 +10,7 @@ This folder contains my write-ups and notes for **File Upload Vulnerability labs
 - Web shell upload via extension blacklist bypass
 - Web shell upload via obfuscated file extension
 - Remote code execution via polyglot web shell upload
+- Web shell upload via race condition
 
 ---
 
