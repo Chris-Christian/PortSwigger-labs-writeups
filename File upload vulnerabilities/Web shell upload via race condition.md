@@ -9,7 +9,7 @@
 - If you haven't already, add the Turbo Intruder extension to Burp from the BApp store.
 - Right-click on the POST /my-account/avatar request that was used to submit the file upload and select Extensions > Turbo Intruder > Send to turbo intruder. The Turbo Intruder window opens.
 - Copy and paste the following script template into Turbo Intruder's Python editor:
-  ```python
+```python
   def queueRequests(target, wordlists):
     engine = RequestEngine(endpoint=target.endpoint, concurrentConnections=10,)
 
@@ -32,5 +32,5 @@
 
 def handleResponse(req, interesting):
     table.add(req)
-
+```
 - 
