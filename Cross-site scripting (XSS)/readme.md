@@ -9,4 +9,4 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 
 ---
 
-📌 These write-ups are for learning and awareness purposes only. Responsible disclosure and legal boundaries must always be followed.
+📌 These write-ups are for educational purposes only.
