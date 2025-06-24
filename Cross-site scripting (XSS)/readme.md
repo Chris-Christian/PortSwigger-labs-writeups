@@ -5,6 +5,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 ## ✅ Labs Completed
 
 - Reflected XSS into HTML context with nothing encoded
+- Stored XSS into HTML context with nothing encoded
 - ...more labs in progress
 
 ---
