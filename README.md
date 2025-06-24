@@ -7,6 +7,7 @@ This repository contains my personal write-ups and summaries of labs I’ve comp
 - [x] SQL Injection
 - [x] File Upload Vulnerabilities
 - [x] Path Traversal
+- [x] Cross-site scripting (XSS)
 
 More to come as I progress through the Academy.
 
