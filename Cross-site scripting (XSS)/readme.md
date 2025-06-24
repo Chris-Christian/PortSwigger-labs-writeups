@@ -6,6 +6,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 
 - Reflected XSS into HTML context with nothing encoded
 - Stored XSS into HTML context with nothing encoded
+- DOM XSS in document.write sink using source location.search
 - ...more labs in progress
 
 ---
