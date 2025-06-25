@@ -10,6 +10,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - DOM XSS in innerHTML sink using source location.search
 - DOM XSS in jQuery anchor href attribute sink using location.search source
 - DOM XSS in jQuery selector sink using a hashchange event
+- Reflected XSS into attribute with angle brackets HTML-encoded
 - ...more labs in progress
 
 ---
