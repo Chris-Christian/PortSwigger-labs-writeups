@@ -15,10 +15,10 @@
 - Which creates an image element and puts it on the page. And because the image source is invalid (x), it fails to load, which triggers the onerror=print() part and our XSS gets executed.
 - You can't just send a link like this: `https://victim-site.com/#<img src=x onerror=print()>`. Because some browsers or filters might block or break the < > characters, especially in URLs.
 - So instead, you load the vulnerable page in an <iframe> and dynamically change its src from JavaScript inside your exploit.
-  `
+  
   &lt;iframe src=&quot;https://victim-site.com/#&quot; 
         onload=&quot;this.src+=&apos;&lt;img src=x onerror=print()&gt;&apos;&quot;&gt;
-  &lt;/iframe&gt;`
+  &lt;/iframe&gt;
 - What this does:
   1. Loads the page like this:
   → `https://victim-site.com/#`
