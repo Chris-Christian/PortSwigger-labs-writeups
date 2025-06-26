@@ -12,6 +12,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - DOM XSS in jQuery selector sink using a hashchange event
 - Reflected XSS into attribute with angle brackets HTML-encoded
 - Stored XSS into anchor href attribute with double quotes HTML-encoded
+- Reflected XSS into a JavaScript string with angle brackets HTML encoded
 - ...more labs in progress
 
 ---
