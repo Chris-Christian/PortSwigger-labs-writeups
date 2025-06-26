@@ -13,6 +13,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Reflected XSS into attribute with angle brackets HTML-encoded
 - Stored XSS into anchor href attribute with double quotes HTML-encoded
 - Reflected XSS into a JavaScript string with angle brackets HTML encoded
+- DOM XSS in document.write sink using source location.search inside a select element
 - ...more labs in progress
 
 ---
