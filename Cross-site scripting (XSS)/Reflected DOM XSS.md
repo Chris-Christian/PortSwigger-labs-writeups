@@ -10,7 +10,7 @@
 - Test with `"hello` → see that it becomes `\"`  → confirms quotes are escaped: `"searchTerm":"\"hello"`
 - Test with `\hello` → see that it's not escaped: `"searchTerm":"\hello"`
 - Use `\"hello` to break out of string: `"searchTerm":"\\"hello"`
-- Working payload: `\"-alert(1)}//`
+- Enter this payload to solve the lab: `\"-alert(1)}//`
   
 ### Explanation
 
