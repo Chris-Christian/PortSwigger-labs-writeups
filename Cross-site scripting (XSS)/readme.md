@@ -15,6 +15,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Reflected XSS into a JavaScript string with angle brackets HTML encoded
 - DOM XSS in document.write sink using source location.search inside a select element
 - DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded
+- Reflected DOM XSS
 - ...more labs in progress
 
 ---
