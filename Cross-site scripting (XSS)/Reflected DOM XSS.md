@@ -12,7 +12,7 @@
 - Use `\"hello` to break out of string: `"searchTerm":"\\"hello"`
 - Working payload: `\"-alert(1)}//`
   
-# Explanation
+### Explanation
 
 - \" breaks out of the current string safely.
 - -alert(1) is a valid JavaScript expression and avoids syntax errors.
