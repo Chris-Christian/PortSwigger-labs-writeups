@@ -4,7 +4,7 @@
 - Locate the following script tag: `<script src='/resources/js/loadCommentsWithVulnerableEscapeHtml.js'></script>`
 - Navigate to the script URL `(/resources/js/loadCommentsWithVulnerableEscapeHtml.js)` and review the contents.
 - Analyze the escapeHTML() function inside the script:
-    <pre>function escapeHTML(html) {
+    <pre>   function escapeHTML(html) {
     return html.replace('&lt;', '&lt;').replace('&gt;', '&gt;'); 
     }</pre>
 - This function only replaces the first occurrence of `<` and `>`, due to missing the global flag in the `.replace()` method.
