@@ -17,6 +17,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded
 - Reflected DOM XSS
 - Stored DOM XSS
+- Reflected XSS into HTML context with most tags and attributes blocked
 - ...more labs in progress
 
 ---
