@@ -5,7 +5,7 @@
 - Since custom tags are allowed, we can use a custom element like <xss> and attach an event handler to it.
 - `onfocus=alert(document.cookie)` → to run the script.
 - `tabindex=1` → to make the element focusable.
-- `#x` → to automatically give focus to the element with `id="x"` on page load.
+- `#x`: Automatically causes the browser to focus the element with `id="x"` on page load, which triggers `onfocus`.
 - Go to the exploit server.
 - Enter this Final URL encoded Payload in the Body:
   `<script>
