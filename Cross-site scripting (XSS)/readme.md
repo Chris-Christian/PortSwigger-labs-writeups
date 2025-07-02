@@ -18,6 +18,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Reflected DOM XSS
 - Stored DOM XSS
 - Reflected XSS into HTML context with most tags and attributes blocked
+- Reflected XSS into HTML context with all tags blocked except custom ones
 - ...more labs in progress
 
 ---
