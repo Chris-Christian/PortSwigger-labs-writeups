@@ -1,11 +1,11 @@
 ## Solution steps
 
-- The lab filters standard HTML tags like <script>, <img>, <svg>, etc.
-- Only custom tags (like <xss>, <abc>, etc.) are allowed.
+- The lab filters standard HTML tags like `<script>`, `<img>`, `<svg>`, etc.
+- Only custom tags (like `<xss>`, `<abc>`, etc.) are allowed.
 - Since custom tags are allowed, we can use a custom element like <xss> and attach an event handler to it.
-- onfocus=alert(document.cookie) → to run the script.
-- tabindex=1 → to make the element focusable.
-- #x → to automatically give focus to the element with id="x" on page load.
+- `onfocus=alert(document.cookie)` → to run the script.
+- `tabindex=1` → to make the element focusable.
+- `#x` → to automatically give focus to the element with `id="x"` on page load.
 - Go to the exploit server.
 - Enter this Final URL encoded Payload in the Body:
   `<script>
