@@ -11,7 +11,7 @@
 - In Burp Intruder, in the Payloads side panel, click Paste to paste the list of tags into the payloads list. Start attack.
 - Observe that all payloads caused a `400` response, except for the ones using the `<svg>`, `<animatetransform>`, `<title>`, and `<image>` tags, which received a `200` response.
 - Go back to the Intruder tab and replace your search term with: `<svg><animatetransform%20=1>`
-- Place the cursor before the = character and click Add § to create a payload position.
+- Place the cursor before the `=` character and click Add `§` to create a payload position.
 - Visit the XSS cheat sheet and click Copy events to clipboard.
 - In Burp Intruder, in the Payloads side panel, click Clear to remove the previous payloads. Then click Paste to paste the list of attributes into the payloads list. Start attack.
 - When the attack is finished, review the results. Note that all payloads caused a `400` response, except for the `onbegin` payload, which caused a `200` response.
