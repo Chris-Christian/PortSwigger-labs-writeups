@@ -1,0 +1,22 @@
+## Solution steps
+
+- Inject a standard XSS payload, such as: `<img src=1 onerror=alert(1)>`
+- Observe that this payload gets blocked.
+- Open Burp Suite and set up proxy (keep the intercept off).
+- Enter a random string, such as: `hello`
+- From Http history, send the `GET` `/?search=hello` to intruder.
+- In the request template, replace the value of the search term with: `<>`
+- Place the cursor between the angle brackets and click Add `§` to create a payload position.
+- Visit the XSS cheat sheet by portswigger and click Copy tags to clipboard.
+- In Burp Intruder, in the Payloads side panel, click Paste to paste the list of tags into the payloads list. Start attack.
+- Observe that all payloads caused a `400` response, except for the ones using the `<svg>`, `<animatetransform>`, `<title>`, and `<image>` tags, which received a `200` response.
+- Go back to the Intruder tab and replace your search term with: `<svg><animatetransform%20=1>`
+- Place the cursor before the = character and click Add § to create a payload position.
+- Visit the XSS cheat sheet and click Copy events to clipboard.
+- In Burp Intruder, in the Payloads side panel, click Clear to remove the previous payloads. Then click Paste to paste the list of attributes into the payloads list. Start attack.
+- When the attack is finished, review the results. Note that all payloads caused a `400` response, except for the `onbegin` payload, which caused a `200` response.
+- Working Payload: `<svg><animateTransform attributeName="transform" onbegin="alert(1)"/>`
+  `<svg>`: root container (allowed)
+  `<animateTransform>`: allowed tag
+  `attributeName="transform"`: required attribute to make the tag valid
+  `onbegin="alert(1)"`: executes JS when animation begins
