@@ -16,7 +16,7 @@
 - In Burp Intruder, in the Payloads side panel, click Clear to remove the previous payloads. Then click Paste to paste the list of attributes into the payloads list. Start attack.
 - When the attack is finished, review the results. Note that all payloads caused a `400` response, except for the `onbegin` payload, which caused a `200` response.
 - Working Payload: `<svg><animateTransform attributeName="transform" onbegin="alert(1)"/>`
-  `<svg>`: root container (allowed)
-  `<animateTransform>`: allowed tag
-  `attributeName="transform"`: required attribute to make the tag valid
-  `onbegin="alert(1)"`: executes JS when animation begins
+  - `<svg>`: root container (allowed)
+  - `<animateTransform>`: allowed tag
+  - `attributeName="transform"`: required attribute to make the tag valid
+  - `onbegin="alert(1)"`: executes JS when animation begins
