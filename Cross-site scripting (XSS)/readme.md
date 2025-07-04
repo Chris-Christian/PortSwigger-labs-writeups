@@ -24,6 +24,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Reflected XSS into a JavaScript string with single quote and backslash escaped
 - Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped
 - Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped
+- Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped
 - ...more labs in progress
 
 ---
