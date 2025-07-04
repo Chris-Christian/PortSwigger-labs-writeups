@@ -22,6 +22,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Reflected XSS with some SVG markup allowed
 - Reflected XSS in canonical link tag
 - Reflected XSS into a JavaScript string with single quote and backslash escaped
+- Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped
 - ...more labs in progress
 
 ---
