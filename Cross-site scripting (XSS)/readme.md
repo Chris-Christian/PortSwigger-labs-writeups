@@ -27,6 +27,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped
 - Exploiting cross-site scripting to steal cookies (with & without Burp collaborator)
 - Exploiting cross-site scripting to capture passwords (with & without Burp collaborator)
+- Exploiting XSS to bypass CSRF defenses
 - ...more labs in progress
 
 ---
