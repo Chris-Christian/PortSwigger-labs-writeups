@@ -29,6 +29,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Exploiting cross-site scripting to capture passwords (with & without Burp collaborator)
 - Exploiting XSS to bypass CSRF defenses
 - Reflected XSS with AngularJS sandbox escape without strings
+- Reflected XSS with AngularJS sandbox escape and CSP
 - ...more labs in progress
 
 ---
