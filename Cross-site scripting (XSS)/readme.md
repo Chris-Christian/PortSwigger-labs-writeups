@@ -31,6 +31,7 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Reflected XSS with AngularJS sandbox escape without strings
 - Reflected XSS with AngularJS sandbox escape and CSP
 - Reflected XSS with event handlers and href attributes blocked
+- Reflected XSS in a JavaScript URL with some characters blocked
 - ...more labs in progress
 
 ---
