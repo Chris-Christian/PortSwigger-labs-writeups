@@ -7,11 +7,11 @@
   - Include the string "1337" in the alert message
   - Note: The payload only executes when you click "Back to blog" on the page.
 
-### URL encoded payload:
+## URL encoded payload:
 ```html
 https://YOUR-LAB-ID.web-security-academy.net/post?postId=5&%27},x=x=%3E{throw/**/onerror=alert,1337},toString=x,window%2b%27%27,{x:%27
 ```
-## Step-by-Step Breakdown
+### Step-by-Step Breakdown
 
 1. Character Filtering Challenge
    - The application is blocking some characters, such as: Spaces (` `), Quotes (`"`) and Possibly `(`, `)`, and others.
