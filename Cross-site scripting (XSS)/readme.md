@@ -33,7 +33,6 @@ This folder contains my write-ups and solutions for **Cross-site Scripting (XSS)
 - Reflected XSS with event handlers and href attributes blocked
 - Reflected XSS in a JavaScript URL with some characters blocked
 - Reflected XSS protected by CSP, with CSP bypass
-- ...more labs in progress
 
 ---
 
