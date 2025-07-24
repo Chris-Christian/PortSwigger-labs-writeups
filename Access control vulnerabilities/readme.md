@@ -8,6 +8,7 @@ This folder contains my write-ups and solutions for **Access control vulnerabili
 - Unprotected admin functionality with unpredictable URL
 - User role controlled by request parameter
 - User role can be modified in user profile
+- User ID controlled by request parameter
 
 ---
 
