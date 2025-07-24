@@ -8,6 +8,7 @@ This repository contains my personal write-ups and summaries of labs I’ve comp
 - [x] File Upload Vulnerabilities
 - [x] Path Traversal
 - [x] Cross-site scripting (XSS)
+- [ ] Access control vulnerabilities
 
 More to come as I progress through the Academy.
 
