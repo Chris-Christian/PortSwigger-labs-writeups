@@ -5,7 +5,7 @@
 - Use the provided feature to update the email address associated with your account.
 - Go to Http history and click on the `POST` request `/myaccount/change-email`. Observe that the response contains your role ID.
 - Send the request to repeater.
-- Send the email submission request to Burp Repeater, add `"roleid":2` into the JSON in the request body.
+- Add `"roleid":2` into the JSON in the request body.
   ```html
   {
   "email":"test@email.com",  "roleid":2
