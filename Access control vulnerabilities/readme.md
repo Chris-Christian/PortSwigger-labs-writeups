@@ -5,6 +5,7 @@ This folder contains my write-ups and solutions for **Access control vulnerabili
 ## ✅ Labs Completed
 
 - Unprotected admin functionality
+- Unprotected admin functionality with unpredictable URL
 
 ---
 
