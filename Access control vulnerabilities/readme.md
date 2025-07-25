@@ -10,6 +10,7 @@ This folder contains my write-ups and solutions for **Access control vulnerabili
 - User role can be modified in user profile
 - User ID controlled by request parameter
 - User ID controlled by request parameter, with unpredictable user IDs
+- User ID controlled by request parameter with data leakage in redirect
 
 ---
 
