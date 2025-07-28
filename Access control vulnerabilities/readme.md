@@ -13,6 +13,7 @@ This folder contains my write-ups and solutions for **Access control vulnerabili
 - User ID controlled by request parameter with data leakage in redirect
 - User ID controlled by request parameter with password disclosure
 - Insecure direct object references
+- URL-based access control can be circumvented
 
 ---
 
