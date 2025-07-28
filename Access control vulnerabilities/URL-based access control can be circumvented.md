@@ -8,7 +8,7 @@
 - Keep the intercept on and refresh the page again.
 - Change the URL in the request line to `/` and the value of the `X-Original-URL` header to `/admin`.
 - Observe that you can now access the admin page.
-- Click on delete carlos.
+- Click on delete `carlos`.
 - From the URL remove everything except `/?username=carlos` and change the `X-Original-URL` path to `/admin/delete`.
 - The next intercepted request must be to access the admin page again after deleting the user. Change the URL in the request line to `/` and the value of the X-Original-URL header to `/admin`.
 - Observe that the user `carlos` is deleted.
