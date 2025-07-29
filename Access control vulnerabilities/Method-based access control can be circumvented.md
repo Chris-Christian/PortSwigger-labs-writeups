@@ -11,4 +11,4 @@
 
 ### Note on Realism:
 
-- In a real-world attack, an attacker wouldn't have access to the admin request. However, this lab is designed to demonstrate insecure method-based access control, where the server authorizes based on the HTTP method rather than the resource or user role.
+In a real-world attack, an attacker wouldn't have access to the admin request. However, this lab is designed to demonstrate insecure method-based access control, where the server authorizes based on the HTTP method rather than the resource or user role.
