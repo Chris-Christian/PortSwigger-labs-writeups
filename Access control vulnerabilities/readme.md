@@ -15,6 +15,7 @@ This folder contains my write-ups and solutions for **Access control vulnerabili
 - Insecure direct object references
 - URL-based access control can be circumvented
 - Method-based access control can be circumvented
+- Multi-step process with no access control on one step
 
 ---
 
