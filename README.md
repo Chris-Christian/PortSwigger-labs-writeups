@@ -9,6 +9,7 @@ This repository contains my personal write-ups and summaries of labs I’ve comp
 - [x] Path Traversal
 - [x] Cross-site scripting (XSS)
 - [x] Access control vulnerabilities
+- [ ] Information disclosure
 
 More to come as I progress through the Academy.
 
