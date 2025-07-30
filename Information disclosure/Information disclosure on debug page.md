@@ -1,6 +1,6 @@
 ## Solution steps
 
-- View the web's source page.
+- Open the lab's homepage and view the page source
 - Scroll through the HTML and observe the presence of a commented-out debug link: `<!-- <a href=/cgi-bin/phpinfo.php>Debug</a> -->`
 - This reveals that the server hosts a publicly accessible `phpinfo.php` file, typically used for debugging.
 - Visit the path directly: `https://<lab-url>/cgi-bin/phpinfo.php`
