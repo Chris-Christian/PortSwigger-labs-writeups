@@ -4,7 +4,7 @@ This folder contains my write-ups and solutions for **Information disclosure** l
 
 ## ✅ Labs Completed
 
-- 
+- Information disclosure in error messages
 
 ---
 
