@@ -7,6 +7,7 @@ This folder contains my write-ups and solutions for **Information disclosure** l
 - Information disclosure in error messages
 - Information disclosure on debug page
 - Source code disclosure via backup files
+- Authentication bypass via information disclosure
 
 ---
 
