@@ -6,4 +6,4 @@
 - In the Payloads side panel, change the payload type to Numbers, and enter 1, 255, and 1 in the From and To and Step boxes respectively.
 - Start attack.
 - Click on the Status column to sort it by status code ascending. You should see a single entry with a status of `200`, showing an admin interface.
-- Click on this request, send it to Burp Repeater, and change the path in the stockApi to: `/admin/delete?username=carlos`
+- Click on this request, send it to Burp Repeater, and change the path in the `stockApi` to: `/admin/delete?username=carlos`
