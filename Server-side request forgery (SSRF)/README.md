@@ -5,6 +5,7 @@ This folder contains my write-ups and solutions for **Server-side request forger
 ## ✅ Labs Completed
 
 - Basic SSRF against the local server
+- Basic SSRF against another back-end system
 - 
 
 ---
