@@ -7,5 +7,5 @@
 - In the Collaborator tab (Pro only), click **Poll now** to check for interactions.
 - If the server made a request to your payload domain, you’ll see **HTTP/DNS logs**, confirming the SSRF.
 
-### ⚠️ Note
+### Note ⚠
 This lab requires **Burp Suite Professional** for Burp Collaborator. As I’m using the **Community Edition**, I couldn’t test it live but studied the request flow and interaction mechanism.
