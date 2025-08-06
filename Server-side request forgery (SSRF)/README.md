@@ -7,6 +7,7 @@ This folder contains my write-ups and solutions for **Server-side request forger
 - Basic SSRF against the local server
 - Basic SSRF against another back-end system
 - Blind SSRF with out-of-band detection
+- SSRF with blacklist-based input filter
 - 
 
 ---
