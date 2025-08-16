@@ -10,7 +10,7 @@ This repository contains my personal write-ups and summaries of labs I’ve comp
 - [x] Cross-site scripting (XSS)
 - [x] Access control vulnerabilities
 - [x] Information disclosure
-- [ ] Server-side request forgery (SSRF)
+- [x] Server-side request forgery (SSRF)
 
 More to come as I progress through the Academy.
 
