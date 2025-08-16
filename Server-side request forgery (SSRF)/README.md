@@ -9,7 +9,7 @@ This folder contains my write-ups and solutions for **Server-side request forger
 - Blind SSRF with out-of-band detection
 - SSRF with blacklist-based input filter
 - SSRF with filter bypass via open redirection vulnerability
-- 
+- SSRF with whitelist-based input filter
 
 ---
 
