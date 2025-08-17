@@ -6,6 +6,7 @@ This folder contains my solutions and learning notes for **SQL Injection labs** 
 
 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 - SQL injection vulnerability allowing login bypass
+- SQL injection attack, querying the database type and version on Oracle
 - SQL injection attack, querying the database type and version on MySQL and Microsoft
 - SQL injection attack, listing the database contents on non-Oracle databases
 - SQL injection UNION attack, determining the number of columns returned by the query
