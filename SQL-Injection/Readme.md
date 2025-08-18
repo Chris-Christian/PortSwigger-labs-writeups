@@ -9,6 +9,7 @@ This folder contains my solutions and learning notes for **SQL Injection labs** 
 - SQL injection attack, querying the database type and version on Oracle
 - SQL injection attack, querying the database type and version on MySQL and Microsoft
 - SQL injection attack, listing the database contents on non-Oracle databases
+- SQL injection attack, listing the database contents on Oracle
 - SQL injection UNION attack, determining the number of columns returned by the query
 - SQL injection UNION attack, finding a column containing text
 - SQL injection UNION attack, retrieving data from other tables
