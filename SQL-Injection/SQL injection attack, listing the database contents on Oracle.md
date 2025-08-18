@@ -1,5 +1,5 @@
 ## Solution steps
-USERS_SIGBSQ USERNAME_UGZFIJ PASSWORD_CVKYGH
+
 - Open Burp suite and set-up proxy.
 - Determine the number of columns that are being returned by the query and which columns contain text data.
 - Verify that the query is returning two columns, both of which contain text, using a payload like the following in the category parameter: `'+UNION+SELECT+'a','b'+FROM+dual--`
