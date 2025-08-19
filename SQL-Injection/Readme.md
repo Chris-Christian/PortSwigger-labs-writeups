@@ -17,6 +17,7 @@ This folder contains my solutions and learning notes for **SQL Injection labs** 
 - Blind SQL injection with conditional responses
 - Blind SQL injection with conditional errors
 - Visible error-based SQL injection
+- Blind SQL injection with time delays
 - Blind SQL injection with time delays and information retrieval
 - SQL injection with filter bypass via XML encoding
 
