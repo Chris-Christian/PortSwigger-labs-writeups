@@ -11,7 +11,7 @@ This repository contains my personal write-ups and summaries of labs I’ve comp
 - [x] Access control vulnerabilities
 - [x] Information disclosure
 - [x] Server-side request forgery (SSRF)
-- [ ] Essential skills
+- [ ] Cross-site request forgery (CSRF)
 
 More to come as I progress through the Academy.
 
