@@ -4,13 +4,13 @@ This repository contains my personal write-ups and summaries of labs I’ve comp
 
 ### 🔐 Covered Topics
 
-- [x] SQL Injection
-- [x] File Upload Vulnerabilities
-- [x] Path Traversal
 - [x] Cross-site scripting (XSS)
 - [x] Access control vulnerabilities
 - [x] Information disclosure
 - [x] Server-side request forgery (SSRF)
+- [x] SQL Injection
+- [x] File Upload Vulnerabilities
+- [x] Path Traversal
 - [ ] Cross-site request forgery (CSRF)
 
 More to come as I progress through the Academy.
