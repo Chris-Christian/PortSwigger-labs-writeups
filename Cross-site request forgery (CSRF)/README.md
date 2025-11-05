@@ -4,6 +4,7 @@ This folder contains my write-ups and solutions for **Cross-site request forgery
 
 ## ✅ Labs Completed
 
+- CSRF vulnerability with no defenses
 - 
 
 ---
