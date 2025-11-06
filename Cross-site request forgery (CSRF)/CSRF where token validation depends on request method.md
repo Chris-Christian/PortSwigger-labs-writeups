@@ -8,6 +8,7 @@
 - Use "Change request method" on the context menu to convert it into a GET request and observe that the CSRF token is no longer verified.
 - Copy the contents of the request and paste it in an online CSRF PoC Generator. I used: https://hacktify.in/csrf/
 - Remove the `csrf` token as we don't need it.
+- Copy the CSRF PoC FORM's contents and open the exploit server.
 - Paste it in the `Body`.
   ```
   <html>
