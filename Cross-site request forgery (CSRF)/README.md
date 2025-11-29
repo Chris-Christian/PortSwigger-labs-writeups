@@ -11,6 +11,7 @@ This folder contains my write-ups and solutions for **Cross-site request forgery
 - CSRF where token is tied to non-session cookie
 - CSRF where token is duplicated in cookie
 - SameSite Lax bypass via method override
+- SameSite Strict bypass via client-side redirect
 - 
 
 ---
