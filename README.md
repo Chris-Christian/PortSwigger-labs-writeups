@@ -12,6 +12,7 @@ This repository contains my personal write-ups and summaries of labs I’ve comp
 - [x] File Upload Vulnerabilities
 - [x] Path Traversal
 - [ ] Cross-site request forgery (CSRF)
+- [ ] Authentication
 
 More to come as I progress through the Academy.
 
