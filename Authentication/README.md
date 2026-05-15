@@ -5,6 +5,7 @@ This folder contains my write-ups and solutions for **Authentication** labs from
 ## ✅ Labs Completed
 
 - Username enumeration via different responses
+- 2FA simple bypass
 - 
 
 ---
