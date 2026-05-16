@@ -7,6 +7,7 @@ This folder contains my write-ups and solutions for **Authentication** labs from
 - Username enumeration via different responses
 - 2FA simple bypass
 - Password reset broken logic
+- Username enumeration via subtly different responses
 - 
 
 ---
