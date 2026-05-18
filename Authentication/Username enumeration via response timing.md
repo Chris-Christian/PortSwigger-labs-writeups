@@ -7,4 +7,12 @@
 
 - <img width="1365" height="176" alt="image" src="https://github.com/user-attachments/assets/58182638-a4f9-4eb8-8cf5-5785cecf38a9" />
 
-- 
+- Send this request to Burp Intruder and select **Pitchfork attack** from the attack type drop-down menu. Add the `X-Forwarded-For` header.
+- Add payload positions for the `X-Forwarded-For` header and the `username` parameter. Set the password to a very long string of characters (about 100 characters should do it).
+- In the **Payloads** side panel, select position `1` from the **Payload position** drop-down list. Select the **Numbers** payload type. Enter the range 5 - 150 and set the step to 1. Set the max fraction digits to 0. This will be used to spoof your IP.
+- Select position `2` from the **Payload position** drop-down list, then add the list of usernames. Start the attack.
+- In the **Response received** column notice that one of the response times was significantly longer than the others. Repeat this request a few times to make sure it consistently takes longer, then make a note of this username.
+- Create a new Burp Intruder attack for the same request. Add the `X-Forwarded-For` header again and add a payload position to it. Insert the username that you just identified and add a payload position to the `password` parameter.
+- In the **Payloads** side panel, add the list of numbers to payload position 1 and add the list of passwords to payload position 2. Start the attack.
+- When the attack is finished, find the response with a `302` status code. Make a note of this password.
+- Log in using the username and password that you identified and access the user account page to solve the lab.
