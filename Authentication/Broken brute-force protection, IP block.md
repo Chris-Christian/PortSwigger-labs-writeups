@@ -13,7 +13,7 @@
           f.write("carlos\n")
     ```
 - Edit the list of candidate passwords and add your own password before each one. Make sure that your password is aligned with your username in the other list.
-  - Python script to generate the wordlist for passwords:
+  - Python script to generate the wordlist for password:
     ```python
     your_password = "peter"
 
