@@ -9,6 +9,7 @@ This folder contains my write-ups and solutions for **Authentication** labs from
 - Password reset broken logic
 - Username enumeration via subtly different responses
 - Username enumeration via response timing
+- Broken brute-force protection, IP block
 - 
 
 ---
